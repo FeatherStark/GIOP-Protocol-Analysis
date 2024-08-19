@@ -2,6 +2,14 @@
 
 本文 GIOP 协议是基于 Weblogic 中的 IIOP 协议进行分析和总结。
 
+关于 Weblogic 中 IIOP 的反序列化漏洞，可参考：
+
+[Weblogic CVE-2023-21931 vulnerability exploration technique: post-deserialization exploitation](https://github.com/gobysec/Weblogic/blob/main/WebLogic_CVE-2023-21931_en_US.md)
+
+[The Art of Cross-Languages: Weblogic Serialization Vulnerability and IIOP Protocol](https://github.com/gobysec/Weblogic/blob/main/Weblogic_Serialization_Vulnerability_and_IIOP_Protocol_en_US.md)
+
+
+
 GIOP（General Inter-ORB Protocol）是一种CORBA规范定义的协议，用于在分布式对象之间进行通信和交互，定义了对象请求、响应、异常、命名等基本的通信模式和协议规范。
 
 GIOP消息由两部分组成：GIOP消息头和消息体。
